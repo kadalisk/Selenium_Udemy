@@ -1,0 +1,20 @@
+package Module1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class L01Locator1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.qaclickacademy.com");//Get to hit the url
+		driver.findElements(".//*[@id='teacher-input-name']")
+
+		driver.close();
+	}
+
+}
